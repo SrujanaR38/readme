@@ -1,0 +1,17 @@
+echo enter n
+read n
+num=0
+on=$n
+while[$n-gt o]
+do
+num=$(expr $num\*10)
+k=$(expr $n%10)
+num=$(exp $num + $k)
+n=$(expr $/10)
+done
+if[$num-eq $on]
+then
+echo palindrome
+else
+echo not palindrome
+fi
